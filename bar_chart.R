@@ -2,7 +2,7 @@ library(ggplot2)
 library(scales)
 
 yaxis <- dataset$'Value'
-xaxis <- dataset$'Brand Name'
+xaxis <- dataset$'Student Name'
 
 inversed_val <- 5 - yaxis
 xaxis <- factor(xaxis, levels = xaxis[order(yaxis)])
